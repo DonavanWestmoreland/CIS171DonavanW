@@ -4,7 +4,7 @@ A simple program to display a stickman
 
 ##Example Ouput
 
-!README.png
+![Sample Output](README.png)
 
 ##Analysis Steps
 
