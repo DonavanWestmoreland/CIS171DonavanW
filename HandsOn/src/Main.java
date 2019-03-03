@@ -1,3 +1,5 @@
+// update default comments
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -24,7 +26,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) {
         
         Pane root = new Pane();
-        
+     // use methods for each logical component   
         Arc arc = new Arc();
         arc.setRadiusX(50.0f);
         arc.setRadiusY(25.0f);
