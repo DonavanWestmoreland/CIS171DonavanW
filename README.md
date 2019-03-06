@@ -2,6 +2,8 @@
 
 a simple program to create a loan calculator with a GUI
 
+If you run it youll notice that it look different from the image. Thats because when i tried to push it it reverted my project to a previous stage and forced me to start over from scratch.
+
 ## Example Output
 
 
