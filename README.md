@@ -1,47 +1,28 @@
 # Project Title
 
-One Paragraph of project description goes here
+A simple USD to Canadian converter
 
 ## Example Output
 
-This image will display as your example output. Name the image README.jpg in your project folder.
 
-![Sample Output](README.jpg)
+![Sample Output](README.png)
 
 ## Analysis Steps
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+Write a program that converts US dollars into Canadian dollars, as shown in the following figure. The program let the user enter an amount in US dollars and display it equivalent value in Canadian dollars when clicking the Convert button. One dollar is 1.5 Canadian dollars.  All good coding styles, conventions and standards must be used when completing this project in order to get full credit.
 
 ### Design
 
-How did you approach your program design? Did you use multiple classes to define various objects?
+i took it simple and kept to the program requirements though i did expirement with an alternate that utilized combo boxes that allow for different money conversions kind of like you would find if you looked up a normal currency calculator.
 
-```
-Give examples
-```
 
 ### Testing
 
-A step by step series of examples that you developed to properly test the program. 
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+when testing GUIs i find it easiest to build an entire frame work and slowly add in more complicated bits testing that each one works before moving on
 
 ## Notes
 
-Explain any issues or testing instructions.
+
 
 ## Do not change content below this line
 ## Adapted from a README Built With
