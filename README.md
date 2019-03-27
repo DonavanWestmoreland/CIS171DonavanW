@@ -1,25 +1,20 @@
 # Project Title
 
-One Paragraph of project description goes here
-
+a simple project using generic methods
 ## Example Output
 
 This image will display as your example output. Name the image README.jpg in your project folder.
 
-![Sample Output](README.jpg)
+![Sample Output](README.png)
 
 ## Analysis Steps
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+Complete Exercise 19.9 in your book.  
+
+
 
 ### Design
-
-How did you approach your program design? Did you use multiple classes to define various objects?
-
-```
-Give examples
-```
+super simple
 
 ### Testing
 
