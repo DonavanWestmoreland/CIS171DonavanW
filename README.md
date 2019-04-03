@@ -1,47 +1,23 @@
 # Project Title
 
-One Paragraph of project description goes here
+a project to show how long a program runs
 
 ## Example Output
-
-This image will display as your example output. Name the image README.jpg in your project folder.
 
 ![Sample Output](README.jpg)
 
 ## Analysis Steps
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+*22.14 (Execution time for prime numbers) Write a program that obtains the execution time for finding all the prime numbers less than 8,000,000, 10,000,000, 12,000,000, 14,000,000, 16,000,000, and 18,000,000 using the algorithms in Listings 22.5-22.7. Your program should print a table like this:
 
 ### Design
 
-How did you approach your program design? Did you use multiple classes to define various objects?
-
-```
-Give examples
-```
-
+quick and simple
 ### Testing
-
-A step by step series of examples that you developed to properly test the program. 
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
+not much testing was very rushed. noticed the the more i ran it the faster it got
 ## Notes
 
-Explain any issues or testing instructions.
+
 
 ## Do not change content below this line
 ## Adapted from a README Built With
