@@ -23,7 +23,7 @@ import javafx.stage.Stage;
 import javafx.scene.layout.Pane;
 
 /**
- *
+ *View
  * @author reyta
  */
 public class Main extends Application {
@@ -62,7 +62,7 @@ public class Main extends Application {
         
        
         Pane pane = new Pane();
-        pane.getChildren().addAll(view,btDelete,btInsert,btSearch,lblNumber,lblIndex);
+        pane.getChildren().addAll(btDelete,btInsert,btSearch,lblNumber,lblIndex);
        
         
 
@@ -98,13 +98,12 @@ public class Main extends Application {
           tfNumber.clear();
       }
   }
-  
   public static void search(){
       if (list.contains(Integer.parseInt(tfNumber.getText()))){
           System.out.println("yay!");
       }
   }
-public static class  LinkedListView  extends Pane{
+public static class  LinkedListView  extends Pane {
     
     private int startingX = 20;
     private int startingY = 20;
@@ -177,29 +176,5 @@ public static class  LinkedListView  extends Pane{
     }
 }
 
-    /**
-     * @param args the command line arguments
-     */
-
-    
-
-
-
-
-//
-//
-//class Main {
-
-//  
-//    
-//    public void start(Stage primaryStage) {
-    
-//    }
-//   
-//    public static void main(String[] args) {
-//  }
-//  
-//  
-//
 
     
