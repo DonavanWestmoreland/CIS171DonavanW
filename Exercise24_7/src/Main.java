@@ -27,8 +27,8 @@ import javafx.scene.layout.Pane;
  * @author reyta
  */
 public class Main extends Application {
-  public static LinkedList<Integer> list = new LinkedList<>();
-  private static LinkedListView view = new LinkedList<>();
+  public static LinkedList<Integer> list= new LinkedList<>();
+  private static LinkedListView view = new LinkedListView();
   private static  Button btSearch = new Button("Search");
   private static  Button btInsert = new Button("Insert");
   private static Button btDelete = new Button("Delete");
@@ -62,7 +62,7 @@ public class Main extends Application {
         
        
         Pane pane = new Pane();
-        pane.getChildren().addAll(btDelete,btInsert,btSearch,lblNumber,lblIndex);
+        pane.getChildren().addAll(btDelete,btInsert,btSearch,lblNumber,lblIndex,view);
        
         
 
@@ -77,11 +77,13 @@ public class Main extends Application {
         if (list.isEmpty() == false){            
             if (!tfIndex.getText().isEmpty()){
                 list.remove(Integer.parseInt(tfIndex.getText()));
+                view.repaint();
                 tfIndex.clear();
             }                
             else if (!tfNumber.getText().isEmpty()){
                 int thing = list.indexOf(Integer.parseInt(tfNumber.getText()));
                 list.remove(thing);
+                view.repaint();
                 tfNumber.clear();
             }
         }
@@ -90,11 +92,13 @@ public class Main extends Application {
   public static void insert(){
       if (!tfNumber.getText().isEmpty()&& !tfIndex.getText().isEmpty()){
           list.add(Integer.parseInt(tfIndex.getText()),Integer.parseInt(tfNumber.getText()));
-          tfNumber.clear();
+          view.repaint();
           tfIndex.clear();
+          tfNumber.clear();
       }
       else if (!tfNumber.getText().isEmpty()){
           list.add(Integer.parseInt(tfNumber.getText()));
+          view.repaint();
           tfNumber.clear();
       }
   }
