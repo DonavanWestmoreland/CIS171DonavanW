@@ -98,11 +98,11 @@ public class Main {
         System.out.println("Array Size | 50000   100000  150000  200000  250000  300000");
         System.out.println("-----------------------------------------------------------");
         System.out.println("SelectSort |  "+times[0]+"     "+times[1]+"      "+times[2]+"     "+times[3]+"     "+times[4]+"     "+times[5]);
-        System.out.println("SelectSort |  "+times[6]+"     "+times[7]+"      "+times[8]+"     "+times[9]+"     "+times[10]+"     "+times[11]);
-        System.out.println("SelectSort |  "+times[12]+"     "+times[13]+"      "+times[14]+"     "+times[15]+"     "+times[16]+"     "+times[17]);
-        System.out.println("SelectSort |  "+times[18]+"     "+times[19]+"      "+times[20]+"     "+times[21]+"     "+times[22]+"     "+times[23]);
-        System.out.println("SelectSort |  "+times[24]+"     "+times[25]+"      "+times[26]+"     "+times[27]+"     "+times[28]+"     "+times[29]);
-        System.out.println("SelectSort |  "+times[30]+"     "+times[31]+"      "+times[32]+"     "+times[33]+"     "+times[34]+"     "+times[35]);
+        System.out.println("RadixSort  |  "+times[6]+"     "+times[7]+"      "+times[8]+"     "+times[9]+"     "+times[10]+"     "+times[11]);
+        System.out.println("BubbleSort |  "+times[12]+"     "+times[13]+"      "+times[14]+"     "+times[15]+"     "+times[16]+"     "+times[17]);
+        System.out.println("MergeSort  |  "+times[18]+"     "+times[19]+"      "+times[20]+"     "+times[21]+"     "+times[22]+"     "+times[23]);
+        System.out.println("QuickSort  |  "+times[24]+"     "+times[25]+"      "+times[26]+"     "+times[27]+"     "+times[28]+"     "+times[29]);
+        System.out.println("HeapSort   |  "+times[30]+"     "+times[31]+"      "+times[32]+"     "+times[33]+"     "+times[34]+"     "+times[35]);
     }
     
 }
