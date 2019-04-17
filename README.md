@@ -1,43 +1,30 @@
 # Project Title
 
-One Paragraph of project description goes here
+a project that displays the runtimes of multiple different sort algorithms
 
 ## Example Output
 
-This image will display as your example output. Name the image README.jpg in your project folder.
 
 ![Sample Output](README.jpg)
 
 ## Analysis Steps
+Complete the following application as the hands-on portion of Exam 3.  You may use your previously written code as a reference to complete this project.  Internet is allowed.  
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+Write a program that obtains the execution time of selection sort, radix sort, bubble sort, merge sort, quick sort, and heap sort for input size 50000, 100,000, 150,000, 200,000, 250,000, and 300,000. Your program should create data randomly and print a table.
+
+
+long startTime = System.currentTimeMillis();
+
+perform the task;long endTime = System.currentTimeMillis();
+
+long executionTime = endTime - startTime;
 
 ### Design
 
-How did you approach your program design? Did you use multiple classes to define various objects?
-
-```
-Give examples
-```
-
+slowly testing each piece bit by bit sos everyhting worked together
 ### Testing
 
 A step by step series of examples that you developed to properly test the program. 
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Notes
 
